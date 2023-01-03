@@ -3,9 +3,9 @@
 [![Test](https://github.com/h5bp/server-configs-apache/workflows/server/badge.svg)](https://github.com/h5bp/server-configs-apache/actions?query=workflow%3Aserver)
 
 **Apache Server Configs** is a collection of configuration snippets that can help
-your server improve the website's performance and security, while also
-ensuring that resources are served with the correct content-type and are
-accessible, if needed, even cross-domain.
+your server improve the website's performance and security while also
+ensuring that resources receive the correct content type that is
+accessible, if necessary, cross-domain.
 
 
 ## Getting Started
@@ -106,9 +106,9 @@ used to install Apache.
 * **MAMP PRO**. On the main screen, click the `Apache` tab and ensure that all
    the required modules are 'checked', indicating they are enabled.
 
-* **WampServer**. If you have installed WampServer just click on the icon in the
+* **WampServer**. If you have installed WampServer, click on the icon in the
    task bar then <kbd>Apache</kbd> section then <kbd>modules</kbd> section.
-   You will be presented with a list of modules. Simply click on a module name
+   You will receive a list of modules. Click on a module name
    to enable it. WampServer will automatically restart the Apache service after
    you enable a module.
 
@@ -275,7 +275,7 @@ omit    "src/example-module/not-needed-at-all.conf"
 
 ##### Disabling modules
 
-For example, the *“Cross-origin web fonts”* snippet is always included in
+For example, the *“Cross-origin web fonts”* snippet is always present in
 our pre-built `.htaccess` file and enabled. If your project does not deal
 with web fonts, you can `disable` or `omit` this section:
 
